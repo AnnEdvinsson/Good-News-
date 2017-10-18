@@ -1,0 +1,104 @@
+.container {
+height: 100%;
+display: grid;
+background-color: #8d939b;
+
+
+}
+
+.header {
+margin-bottom: 1em;
+padding: 1em;
+background-color: #e25e4d;
+width: 100%;
+/*position: fixed;*/
+
+}
+
+h1 {
+
+  font-size: 6vw;
+  font-family:sans-serif;
+  color: #373443
+}
+
+.wrapper {
+display: grid;
+grid-template-columns: 50vw;
+grid-gap: 1em;
+justify-content: center;
+
+}
+
+.post {
+display: grid;
+border-style: thin;
+border-color: #8d939b;
+background-color: #e6e6e2;
+padding: 1em;
+margin: 1em;
+height: 30vh;
+width: 50vw;
+
+}
+
+.title {
+font-size: 5vh;
+font-family: sans-serif;
+color: #ba723e
+
+}
+
+.author {
+font-size: 3vh;
+color: #373443
+
+}
+
+.date {
+font-size: 2.5vh;
+color: #373443
+
+}
+
+.content {
+font-size: 16px;
+font-family: serif;
+margin-bottom: 1em;
+color: #373443
+}
+
+.likes.button {
+display: grid;
+justify-content:flex-end;
+
+
+}
+
+.likes {
+  font-size: 12px;
+  font-family:sans-serif;
+
+
+
+}
+
+.btn.btn-default {
+  height: 6vh;
+  width: 6vw;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  background-color: #8d939b;
+
+
+}
+
+
+
+.fa {
+  display: inline-block;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
