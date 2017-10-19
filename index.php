@@ -9,16 +9,19 @@ require __DIR__.'/functions.php';?>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>hej
+  <title>GOOD NEWS
   </title>
 </head>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <body>
   <div class="container">
+    <div class=aroundHeader>
     <div class="header">
     <h1>GOOD NEWS</h1>
     </div>
+      </div>
     <?php foreach ($posts as $post):?>
       <div class="wrapper">
         <div class="post">
