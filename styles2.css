@@ -1,0 +1,154 @@
+body {
+  width: 100vw;
+  margin: 0;
+}
+
+
+.container {
+height: 100%;
+width:100%;
+display: grid;
+background-color: #8d939b;
+
+}
+
+.aroundHeader {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 3em;
+}
+
+.header {
+padding-left: 10px;
+width: 100%;
+position: fixed;
+background-color: #fdfcf9;
+display: grid;
+grid-template-columns: 2fr 1fr 2fr;
+}
+
+h1, h3 {
+font-family: 'Raleway', sans-serif;
+align-self: center;
+}
+
+h1 {
+  font-size: 2vw;
+  color: #474e52
+}
+
+h3 {
+  font-size: 1vw;
+}
+
+#om {
+  margin-left: 75%;
+}
+
+.wrapper {
+display: grid;
+grid-gap: 2em;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+* {box-sizing: border-box;}
+.post {
+  max-width: 940px;
+  margin-top: 1em;
+  display: grid;
+}
+
+
+.post > div {
+  border-radius: 5px;
+  padding: 1em;
+
+  color: #d9480f;
+  display: grid;
+background-color: #fdfcf9;
+font-family: 'Lora', serif;
+}
+
+.post {
+  display: grid;
+  justify-content: center;
+margin: 1em;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.title {
+  grid-column: 1 / 5;
+  grid-row: 1;
+font-size: 5vh;
+color: #8f8984;
+}
+
+.author, .date, .content, .likes {
+  color: #36416a;
+}
+
+.imgauthor{
+  grid-column: 1/2;
+    grid-row: 2/ 5;
+}
+
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.author {
+font-size: 16px;
+}
+
+.date {
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+grid-column: 5 / 6;
+grid-row: 1 ;
+justify-content: flex-end;
+align-content:flex-end;
+}
+
+.content {
+font-size: 16px;
+grid-column: 2/6;
+  grid-row: 2 / 5;
+}
+
+.likes.button {
+display: grid;
+justify-content:flex-end;
+grid-column: 5;
+  grid-row: 4;
+  margin-right: 20px;
+}
+
+.likes {
+  font-size: 12px;
+}
+
+.btn.btn-default {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  background-color: #8f8984;
+}
+
+.fa {
+  display: inline-block;
+  margin-top: 5px;
+}
+/*
+.fa-1x {
+  /*font-size: 3em;
+}*/
