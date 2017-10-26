@@ -44,7 +44,6 @@ h3 {
 }
 
 a:link {
-  color: #474e52;
   text-decoration: none;
 }
 
@@ -85,16 +84,12 @@ a:link {
   grid-column: 1/7;
   grid-row: 1;
   font-size: 5vh;
-  color: #8f8984;
 }
 
-.author, .date, .content, .likes {
-  color: #36416a;
-}
 
 .author_date{
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   grid-column: 2/8;
   grid-row: 2;
