@@ -19,31 +19,26 @@ require __DIR__.'/functions.php';?>
   <div class="container">
     <div class=aroundHeader>
     <div class="header">
-    <h3 id="om">OM</h3>
-    <h1>GOOD NEWS</h1>
-    <h3>FÖLJ</h3>
+    <a href="#"><h3 id="about">ABOUT</h3></a>
+    <a href="#"><h1>GOOD NEWS</h1></a>
+    <a href="#"><h3>FOLLOW</h3></a>
     </div>
       </div>
     <?php foreach ($posts as $post):?>
       <div class="wrapper">
         <div class="post">
           <div class="title"> <?php echo $post['title'] ?></div>
-          <div class="date"><?php echo $post['published_date'] ?></div>
+          <div class="img"><img src=<?php echo $post['image'] ?>></div>
           <div class="content"><?php echo $post['content'] ?></div>
-
-<div class="imgauthor">
-
-
-          <div class="author">
-              <?php foreach ($post['author'] as $key => $value) {
-              if ($key === 'name') {echo $value;}}?></div>
-        <div class="img"><img src=<?php echo $post['image'] ?>></div>
-        </div>
-          <div class="likes button">
-          <button type="button" class="btn btn-default">
-            <div class="likes"><?php echo $post['likes']?>
-            <i class="fa fa-thumbs-up fa-2x" ></i></button></div>
+          <div class="author_date">
+              <div class="author"><?php echo "By". " ".$post['author']['name'];?></div>
+              <div class="date"><?php echo $post['published_date'] ?></div>
           </div>
+          <div class="likes button">
+                <button type="button" class="btn btn-default">
+                <div class="likes"><?php echo $post['likes']?>
+                <i class="fa fa-thumbs-up fa-2x" ></i></button></div>
+            </div>
         </div>
       <?php endforeach; ?>
     </div>

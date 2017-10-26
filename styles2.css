@@ -5,11 +5,11 @@ body {
 
 
 .container {
-height: 100%;
-width:100%;
-display: grid;
-background-color: #8d939b;
-
+  height: 100%;
+  width:100%;
+  display: grid;
+  background-image: url('people2.jpg');
+  background-repeat: repeat;
 }
 
 .aroundHeader {
@@ -19,37 +19,43 @@ background-color: #8d939b;
 }
 
 .header {
-padding-left: 10px;
-width: 100%;
-position: fixed;
-background-color: #fdfcf9;
-display: grid;
-grid-template-columns: 2fr 1fr 2fr;
+  padding-left: 10px;
+  width: 100%;
+  position: fixed;
+  background-color: #fdfcf9;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
 }
 
 h1, h3 {
-font-family: 'Raleway', sans-serif;
-align-self: center;
+  font-family: 'Raleway', sans-serif;
+  align-self: center;
+  color: #474e52
 }
 
 h1 {
   font-size: 2vw;
-  color: #474e52
+
 }
 
 h3 {
   font-size: 1vw;
+  margin-top: 5%;
 }
 
-#om {
+a:link {
+  color: #474e52;
+  text-decoration: none;
+}
+
+#about {
   margin-left: 75%;
 }
 
 .wrapper {
-display: grid;
-grid-gap: 2em;
+  display: grid;
+  grid-gap: 2em;
   justify-content: center;
-  align-items: flex-start;
 }
 
 * {box-sizing: border-box;}
@@ -61,72 +67,59 @@ grid-gap: 2em;
 
 
 .post > div {
-  border-radius: 5px;
   padding: 1em;
-
-  color: #d9480f;
+  color: #474e52;
   display: grid;
-background-color: #fdfcf9;
-font-family: 'Lora', serif;
+  background-color: #fdfcf9;
+  font-family: 'Lora', serif;
 }
 
 .post {
   display: grid;
   justify-content: center;
-margin: 1em;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  margin: 1em;
+  grid-template-columns: repeat(8, 1fr);
 }
 
 .title {
-  grid-column: 1 / 5;
+  grid-column: 1/7;
   grid-row: 1;
-font-size: 5vh;
-color: #8f8984;
+  font-size: 5vh;
+  color: #8f8984;
 }
 
 .author, .date, .content, .likes {
   color: #36416a;
 }
 
-.imgauthor{
-  grid-column: 1/2;
-    grid-row: 2/ 5;
+.author_date{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  grid-column: 2/8;
+  grid-row: 2;
 }
 
 .img img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 13vw;
+  height: 13vh;
   border-radius: 5%;
   background-size: cover;
 }
 
-.author {
-font-size: 16px;
-}
-
-.date {
-font-size: 16px;
-font-family: 'Raleway', sans-serif;
-grid-column: 5 / 6;
-grid-row: 1 ;
-justify-content: flex-end;
-align-content:flex-end;
-}
-
 .content {
-font-size: 16px;
-grid-column: 2/6;
-  grid-row: 2 / 5;
+  font-size: 18px;
+  line-height: 150%;
+  grid-column: 2/8;
+  grid-row: 2/5;
 }
 
 .likes.button {
-display: grid;
-justify-content:flex-end;
-grid-column: 5;
-  grid-row: 4;
-  margin-right: 20px;
+  display: grid;
+  align-content:flex-end;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 2/5;
 }
 
 .likes {
@@ -136,19 +129,16 @@ grid-column: 5;
 .btn.btn-default {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   height: 40px;
   width: 60px;
   border-radius: 5px;
   padding-bottom: 10px;
-  background-color: #8f8984;
+  background-color:  #8d939b;
+  margin-bottom: 10%;
 }
 
 .fa {
   display: inline-block;
   margin-top: 5px;
 }
-/*
-.fa-1x {
-  /*font-size: 3em;
-}*/

@@ -10,4 +10,4 @@ To be able to run the blog on your local computer, you need a solution stack, e.
 
 ## License
 MIT
-For more information go to [LICENSE.md](LICENSE.md).
+For more information go to [LICENSE](https://github.com/AnnEdvinsson/Good-News-/blob/master/LICENSE).
