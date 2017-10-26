@@ -1,7 +1,13 @@
 # Good-News-
-Blog with good news 
+Good News is a blog. It is my first code project ever, after a couple of weeks of coding. The blog is an assignment for the PHP course I am currently taking.  
+
+## Usage
+To be able to run the blog on your local computer, you need a solution stack, e.g. MAMP. In your solution stack, set the root directory to the repository of "Good-News-". Open a browser and go to "localhost:8888".
+
+## Maintainer
+[Ann Edvinsson](https://github.com/AnnEdvinsson)
 
 
-Exempel https://github.com/iharsh234/WebApp/blob/master/README.md A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
-
-
+## License
+MIT
+For more information go to [LICENSE.md](LICENSE.md).

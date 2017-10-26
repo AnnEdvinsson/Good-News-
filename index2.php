@@ -34,7 +34,9 @@ require __DIR__.'/functions.php';?>
 <div class="imgauthor">
 
 
-          <div class="author"><?php echo $post['author'] ?></div>
+          <div class="author">
+              <?php foreach ($post['author'] as $key => $value) {
+              if ($key === 'name') {echo $value;}}?></div>
         <div class="img"><img src=<?php echo $post['image'] ?>></div>
         </div>
           <div class="likes button">

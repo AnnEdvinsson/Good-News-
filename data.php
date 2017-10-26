@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 $posts = [
   [
-    'id' => 1,
-    'author' => 'author1',
+
+    'author' => ['name'=> 'author1', 'id' => 1],
     'title' => 'title1',
     'content' => 'Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a c',
     'published_date' => '2017-10-11',
