@@ -7,6 +7,9 @@ To be able to run the blog on your local computer, you need a solution stack, e.
 ## Maintainer
 [Ann Edvinsson](https://github.com/AnnEdvinsson)
 
+## Testers
+André Robsahm
+Maja Persson
 
 ## License
 MIT

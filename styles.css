@@ -9,7 +9,7 @@ body {
   width:100%;
   display: grid;
   background-image: url('img/people2.jpg');
-  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .aroundHeader {
@@ -59,7 +59,7 @@ a:link {
 
 * {box-sizing: border-box;}
 .post {
-  max-width: 940px;
+  max-width: 840px;
   margin-top: 1em;
   display: grid;
 }
@@ -116,11 +116,14 @@ a:link {
 }
 
 .img img {
-  width: 12vw;
-  height: 13vh;
+  width: 100px;;
+  height:105px;;
   border-radius: 5%;
-  background-size: cover;
+  /*background-size: cover;*/
+  display: flex;
   justify-content: flex-end;
+  grid-column: 7/8;
+  grid-row: 1;
 }
 
 .content {
