@@ -29,10 +29,10 @@ require __DIR__.'/functions.php';?>
                 <div class="post">
                     <div class="title"> <?php echo $post['title'] ?></div>
                     <div class="img"><img src=<?php echo $post['image'] ?>></div>
-                    <div class="content"><?php echo $post['content'] ?></div>
+                    <div class="content"><p><?php echo $post['content'] ?></p></div>
                     <div class="author_date">
-                        <div class="author"><?php echo "By". " ".$post['author']['name'];?></div>
-                        <div class="date"><?php echo $post['published_date'] ?></div>
+                        <div class="author"><p><?php echo "By". " ".$post['author']['name'];?></p></div>
+                        <div class="date"><p><?php echo $post['published_date'] ?></p></div>
                     </div>
                     <div class="likes button">
                         <button type="button" class="btn btn-default">

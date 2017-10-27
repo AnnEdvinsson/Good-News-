@@ -71,7 +71,7 @@ a:link {
   display: grid;
   background-color: #fdfcf9;
   font-family: 'Lora', serif;
-  /*border: 2px;
+  /*border: 1px;
   border-color: pink;
   border-style: solid;*/
 
@@ -79,24 +79,40 @@ a:link {
 
 .post {
   display: grid;
-  justify-content: center;
   margin: 1em;
   grid-template-columns: repeat(8, 1fr);
+
 }
 
 .title {
   grid-column: 1/7;
   grid-row: 1;
   font-size: 5vh;
+  justify-self: stretch;
 }
 
 
 .author_date{
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  display: flex;
+  font-size: 12px;
   grid-column: 1/7;
   grid-row: 2;
+}
+
+.author p {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 0;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
+
+}
+
+.date p{
+  display: flex;
+  justify-content: flex-start;
+  line-height: 0;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
 }
 
 .img img {
@@ -104,6 +120,7 @@ a:link {
   height: 13vh;
   border-radius: 5%;
   background-size: cover;
+  justify-content: flex-end;
 }
 
 .content {
@@ -111,14 +128,18 @@ a:link {
   line-height: 150%;
   grid-column: 1/8;
   grid-row: 3/5;
+  text-align: justify;
+}
 
+.content p {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .likes.button {
   display: grid;
-  align-content:flex-end;
-  justify-content: center;
-  grid-column: 7;
+  justify-content:flex-end;
+  grid-column: 7/8;
   grid-row: 2;
 }
 
