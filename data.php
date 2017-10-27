@@ -14,7 +14,7 @@ $posts = [
 
     [
         'author' => ['name'=> 'Magnificant Margeret', 'id' => 1],
-        'title' => 'People start talking about mental illness among cats',
+        'title' => 'People Start Talking about Mental Illness among Cats',
         'content' => 'Impact move the needle or engaging thought leadership; natural resources communities to society. Black lives matter, compassion living a fully ethical life program area families state of play shared vocabulary. Families social capital innovation overcome injustice blended value compelling. Families, rubric resilient; thought leadership greenwashing, social enterprise humanitarian B-corp. Problem-solvers resist overcome injustice inclusive, granular support, improve the world resilient. Social innovation ecosystem the resistance changemaker strengthening infrastructure. Academic philanthropy move the needle, philanthropy incubator humanitarian we must stand up data grit. Effective altruism engaging, empower communities, incubator; compelling revolutionary deep dive or resist.',
         'published_date' => '2017-03-11',
         'image' =>'img/face1.jpeg',
@@ -34,7 +34,7 @@ $posts = [
     [
 
         'author' => ['name'=> 'Urhines Kendall Icy Eight', 'id' => 2],
-        'title' => 'Culture (CDP) replaces GDP',
+        'title' => 'Culture (CDP) Replaces GDP',
         'content' => 'Collaborative cities efficient data, scalable greenwashing to. Her body her rights equal opportunity, collective impact greenwashing inclusion vibrant B-corp best practices global. LGBTQ+, living a fully ethical life empathetic collaborative cities catalyze. Humanitarian inclusive granular; B-corp families, systems thinking inclusion. The resistance; when cultivate progress LGBTQ+ NGO move the needle. Program areas, program areas thought leader sustainable thought partnership move the needle. Innovate, empathetic, framework corporate social responsibility strengthening infrastructure. Black lives matter green space.',
         'published_date' => '2017-10-26',
         'image' =>'img/face2.jpeg',
@@ -44,7 +44,7 @@ $posts = [
     [
 
         'author' => ['name'=> 'Matthew Correspondenty', 'id' => 3],
-        'title' => 'Programming - now compulsory in Swedish elementary schools',
+        'title' => 'Programming - now Compulsory in Swedish Elementary Schools',
         'content' => 'Humanitarian natural resources accessibility, impact communities commitment. Agile incubator, scale and impact, support, sustainable impact investing synergy leverage synergy. Green space resist social capital relief social innovation uplift. Save the world, social innovation social innovation invest social intrapreneurship corporate social responsibility rubric. The replicable families humanitarian society social impact. Because issue outcomes; inclusion social intrapreneurship catalyze bandwidth theory of change because. Outcomes triple bottom line effective altruism state of play challenges and opportunities. Her body her rights agile thought leadership overcome injustice NGO big data mass incarceration. Social innovation framework, to; progress, collective impact replicable strengthening infrastructure.',
         'published_date' => '2017-10-15',
         'image' =>'img/face3.jpg',
@@ -63,7 +63,7 @@ $posts = [
 
     [
         'author' => ['name'=> 'Irina Gaidamachuku', 'id' => 4],
-        'title' => 'Masculinity is finally transforming',
+        'title' => 'Masculinity is Finally Transforming',
         'content' => 'Shared unit of analysis capacity building energize entrepreneur B-corp citizen-centered transparent social impact. Preliminary thinking corporate social responsibility strengthening infrastructure her body her rights progress empathetic black lives matter co-creation. Commitment social innovation, her body her rights humanitarian contextualize youth. Think tank change-makers, global; problem-solvers accessibility efficient; and deep dive. Move the needle, impact, benefit corporation compelling thought provoking game-changer. Mass incarceration because thought leader, inspiring commitment; shine revolutionary shared unit of analysis.',
         'published_date' => '2017-10-24',
         'image' =>'img/face4.jpg',
@@ -81,7 +81,7 @@ $posts = [
 
     [
         'author' => ['name'=> 'Abbey Stockson', 'id' => 5],
-        'title' => 'The sexism is Dead',
+        'title' => 'The Sexism is Dead',
         'content' => 'Contextualize movements, living a fully ethical life game-changer targeted collaborative cities and the resistance social return on investment. Black lives matter activate then empower justice compassion unprecedented challenge. Empathetic mobilize, paradigm justice, targeted. Incubator, efficient disrupt greenwashing paradigm. Thought partnership because, compassion deep dive data; social innovation program area impact investing. Capacity building; paradigm big data, compassion efficient benefit corporation outcomes.',
         'published_date' => '2016-10-03',
         'image' =>'img/face5.jpg',
