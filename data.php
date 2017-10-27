@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 $posts = [
     [
-
         'author' => ['name'=> 'Magnificent Margaret', 'id' => 1],
         'title' => 'Drug to Reverse Snus Overdose',
         'content' => 'Progress shared vocabulary, preliminary thinking, do-gooder, shared unit of analysis then academic natural resources. Move the needle LGBTQ+ systems thinking storytelling best practices granular equal opportunity catalyze. Accessibility; deep dive fairness we must stand up peaceful circular activate problem-solvers inspirational. Design thinking shared unit of analysis a, change-makers green space citizen-centered low-hanging fruit program areas. Progress, black lives matter scalable co-creation resilient; progress society correlation. Support, silo a, milestones change-makers, engaging social entrepreneurship. Impact, a equal opportunity, catalyze; greenwashing blended value innovate. Justice justice; indicators, think tank inclusion, collaborative consumption LGBTQ+.',

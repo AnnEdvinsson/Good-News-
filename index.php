@@ -9,8 +9,7 @@ require __DIR__.'/functions.php';?>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>GOOD NEWS
-    </title>
+    <title>GOOD NEWS</title>
 </head>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -24,6 +23,7 @@ require __DIR__.'/functions.php';?>
                 <a href="#"><h3>FOLLOW</h3></a>
             </div>
         </div>
+        <!-- Here starts the looping of posts with data from data.php document. -->
         <?php foreach ($posts as $post):?>
             <div class="wrapper">
                 <div class="post">
@@ -41,6 +41,7 @@ require __DIR__.'/functions.php';?>
                             </div>
                         </div>
                     <?php endforeach; ?>
+                    <!-- End of loop -->
                 </div>
             </div>
         </body>

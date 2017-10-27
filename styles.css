@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 
-
 .container {
   height: 100%;
   width:100%;
@@ -71,17 +70,12 @@ a:link {
   display: grid;
   background-color: #fdfcf9;
   font-family: 'Lora', serif;
-  /*border: 1px;
-  border-color: pink;
-  border-style: solid;*/
-
 }
 
 .post {
   display: grid;
   margin: 1em;
   grid-template-columns: repeat(8, 1fr);
-
 }
 
 .title {
@@ -104,7 +98,6 @@ a:link {
   line-height: 0;
   font-family: 'Raleway', sans-serif;
   padding-left: 5%;
-
 }
 
 .date p{
@@ -117,9 +110,8 @@ a:link {
 
 .img img {
   width: 100px;;
-  height:105px;;
+  height:90px;;
   border-radius: 5%;
-  /*background-size: cover;*/
   display: flex;
   justify-content: flex-end;
   grid-column: 7/8;
