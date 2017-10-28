@@ -6,7 +6,7 @@ body {
 .container {
   height: 100%;
   width:100%;
-  display: grid;
+  /*display: grid;*/
   background-image: url('img/people2.jpg');
   background-attachment: fixed;
 }
@@ -34,7 +34,6 @@ h1, h3 {
 
 h1 {
   font-size: 2vw;
-
 }
 
 h3 {
@@ -57,25 +56,20 @@ a:link {
 }
 
 * {box-sizing: border-box;}
-.post {
-  max-width: 840px;
-  margin-top: 1em;
-  display: grid;
-}
-
 
 .post > div {
   padding: 1em;
   color: #474e52;
   display: grid;
-  background-color: #fdfcf9;
-  font-family: 'Lora', serif;
 }
 
 .post {
   display: grid;
-  margin: 1em;
-  grid-template-columns: repeat(8, 1fr);
+  margin: 2em;
+  background-color: #fdfcf9;
+  opacity: 0.95;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 840px;
 }
 
 .title {
@@ -85,7 +79,6 @@ a:link {
   justify-self: stretch;
 }
 
-
 .author_date{
   font-size: 12px;
   grid-column: 1/7;
@@ -93,29 +86,27 @@ a:link {
 }
 
 .author p {
-  display: flex;
-  justify-content: flex-start;
   line-height: 0;
   font-family: 'Raleway', sans-serif;
   padding-left: 5%;
 }
 
 .date p{
-  display: flex;
-  justify-content: flex-start;
   line-height: 0;
   font-family: 'Raleway', sans-serif;
   padding-left: 5%;
 }
 
 .img img {
-  width: 100px;;
-  height:90px;;
+  width: 200px;
+  height:160px;
   border-radius: 5%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   grid-column: 7/8;
   grid-row: 1;
+  margin-top: 2em;
+  margin-right: 10%;
 }
 
 .content {
@@ -132,10 +123,11 @@ a:link {
 }
 
 .likes.button {
-  display: grid;
+  display: flex;
   justify-content:flex-end;
   grid-column: 7/8;
   grid-row: 2;
+  margin-right: 10%;
 }
 
 .likes {
@@ -143,15 +135,11 @@ a:link {
 }
 
 .btn.btn-default {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   height: 40px;
   width: 60px;
   border-radius: 5px;
   padding-bottom: 10px;
   background-color:  #8d939b;
-  margin-bottom: 10%;
 }
 
 .fa {
