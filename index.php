@@ -18,9 +18,9 @@ require __DIR__.'/functions.php';?>
     <div class="container">
         <div class=aroundHeader>
             <div class="header">
-                <a href="#"><h3 id="about">ABOUT</h3></a>
-                <a href="#"><h1>GOOD NEWS</h1></a>
-                <a href="#"><h3>FOLLOW</h3></a>
+                <a href="#"><h3 id="about"><p title="No redirects yet">ABOUT</p></h3></a>
+                <a href="#"><h1><p title="No redirects yet">GOOD NEWS</p></h1></a>
+                <a href="#"><h3><p title="No redirects yet">FOLLOW</p></h3></a>
             </div>
         </div>
         <!-- Here starts the looping of posts with data from data.php document. -->
