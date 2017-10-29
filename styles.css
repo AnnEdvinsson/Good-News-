@@ -1,12 +1,13 @@
 body {
   width: 100vw;
   margin: 0;
+
 }
 
 .container {
   height: 100%;
   width:100%;
-  /*display: grid;*/
+  display: grid;
   background-image: url('img/people2.jpg');
   background-attachment: fixed;
 }
