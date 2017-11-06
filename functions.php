@@ -7,7 +7,3 @@ function sortByDate ($a, $b){
     return $a['published_date'] <  $b['published_date'];
 
 }
-usort($posts, 'sortByDate');
-
-
-?>
